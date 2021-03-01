@@ -30,12 +30,5 @@ namespace EersteProject
         {
             lblNaam.Content = "Hello World";
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            iCounter++;
-            lblCounter.Content = iCounter.ToString();
-        }
-
     }
 }
