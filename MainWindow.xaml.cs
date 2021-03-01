@@ -20,6 +20,7 @@ namespace EersteProject
     /// </summary>
     public partial class MainWindow : Window
     {
+        int iCounter;
         public MainWindow()
         {
             InitializeComponent();
@@ -29,5 +30,12 @@ namespace EersteProject
         {
             lblNaam.Content = "Hello World";
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            iCounter++;
+            lblCounter.Content = iCounter.ToString();
+        }
+
     }
 }
