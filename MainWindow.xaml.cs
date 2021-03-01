@@ -24,5 +24,10 @@ namespace EersteProject
         {
             InitializeComponent();
         }
+
+        private void btnResult_Click(object sender, RoutedEventArgs e)
+        {
+            lblNaam.Content = "Hello World";
+        }
     }
 }
